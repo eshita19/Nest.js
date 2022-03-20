@@ -10,5 +10,12 @@
   - **Nest JS CLI**: 
     - Install nest CLI: npm install -g @nestjs/cli
     - Create new project named messages: nest new messages
+  - **Nest Rest Decorators**:
+    - @Controller - Front controller for an API endpoint
+    - @GET, @POST - Handle different HTTP verbs.
+    - @Query
+    - @Param  
+
+
   
  
