@@ -13,8 +13,10 @@
   - **Nest Rest Decorators**:
     - @Controller - Front controller for an API endpoint
     - @GET, @POST - Handle different HTTP verbs.
-    - @Query
-    - @Param  
+    - @Query - Access query params
+    - @Param  - Access path params
+    - @Headers - Address headers
+    - @Body - Response body
 
 
   
