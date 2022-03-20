@@ -8,7 +8,7 @@
   
   - **Command to run file**: npx ts-node-dev src/main.ts 
   - **Nest JS CLI**: 
-    - npm install -g @nestjs/cli
-    - 
+    - Install nest CLI: npm install -g @nestjs/cli
+    - Create new project named messages: nest new messages
   
  
