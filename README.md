@@ -7,6 +7,8 @@
   <img width="869" alt="Screenshot 2022-03-19 at 11 48 21 AM" src="https://user-images.githubusercontent.com/33754197/159112251-a2e429ef-a5d1-4633-a6ba-2f1d36bf68c2.png">
   
   - **Command to run file**: npx ts-node-dev src/main.ts 
-  - 
+  - **Nest JS CLI**: 
+    - npm install -g @nestjs/cli
+    - 
   
  
