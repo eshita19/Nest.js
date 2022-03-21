@@ -17,13 +17,13 @@
     - @Param  - Access path params
     - @Headers - Address headers
     - @Body - Response body
-    - Validation - Add global validator to pipe: 
-   ``` 
-    app.useGlobalPipes(
-    new ValidationPipe()
-  );
-  ```
-    - "class-validator" npm package can be used for adding decorators for bean validation.
+    - **Validation** - Add global validator to pipe: 
+       ``` 
+        app.useGlobalPipes(
+        new ValidationPipe()
+      );
+      ```
+      - "class-validator" npm package can be used for adding decorators for bean validation.
 
 
   
