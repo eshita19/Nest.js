@@ -12,6 +12,8 @@
     - Create new project named messages: nest new messages
   - **Nest Rest Decorators**:[Refer this](https://github.com/eshita19/Nest.js/tree/main/eshrepo/nestjs/nestcli/messages)
     - @Controller - Front controller for an API endpoint
+    - @Service - Annotate class which has businesslogic
+    - @Repository - Class which interactes with DB
     - @GET, @POST - Handle different HTTP verbs.
     - @Query - Access query params
     - @Param  - Access path params
@@ -23,7 +25,7 @@
         new ValidationPipe()
       );
       ```
-      - "class-validator" npm package can be used for adding decorators for bean validation.
+      - "class-validator" npm package can be used for adding decorators for bean validation. class-validator provides various annotation which can be added at the bean level.
 
 
   
