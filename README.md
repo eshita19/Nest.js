@@ -27,6 +27,9 @@
       ```
       - "class-validator" npm package can be used for adding decorators for bean validation. class-validator provides various annotation which can be added at the bean level.
 
+  - For exposing a module A to another module B, Module A should export its service. Module B should import Module A.()
+
+
 
   
  
