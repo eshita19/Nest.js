@@ -3,7 +3,7 @@ import { NestFactory } from "@nestjs/core";
 
 @Controller()
 class MyController{
-    @Get()
+    @Get("/name")
     geAppName(){
         return "eshita mathur";
     }
