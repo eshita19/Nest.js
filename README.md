@@ -30,7 +30,22 @@
   - For exposing a module A to another module B, Module A should export its service. Module B should import Module A.()
 
 
-##Persisting data with TypeORM
+## Persisting data with TypeORM
+- Add following packages to package.json to @nestjs/typeorm, typeorm, sqllite.
+- Establish DB connection: 
+   ```
+   import { TypeOrmModule } from '@nestjs/typeorm';
+@Module({
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'sqllite',
+      database: 'db.sqllite',
+      entities: [],
+      synchronize: true,
+    }),
+  ],
+  controllers: [AppController
+  ````
 
 
 
