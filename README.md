@@ -30,6 +30,10 @@
   - For exposing a module A to another module B, Module A should export its service. Module B should import Module A.()
 
 
+##Persisting data with TypeORM
+
+
+
 
   
  
