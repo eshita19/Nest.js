@@ -36,6 +36,8 @@
    ```
    import { TypeOrmModule } from '@nestjs/typeorm';
 @Module({
+  import { TypeOrmModule } from '@nestjs/typeorm';
+@Module({
   imports: [
     TypeOrmModule.forRoot({
       type: 'sqllite',
@@ -44,8 +46,8 @@
       synchronize: true,
     }),
   ],
-  controllers: [AppController
-  ````
+  controllers: [AppController]
+```  
 
 
 
