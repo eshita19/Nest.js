@@ -34,20 +34,20 @@
 - Add following packages to package.json to @nestjs/typeorm, typeorm, sqllite.
 - Establish DB connection: 
    ```
-   import { TypeOrmModule } from '@nestjs/typeorm';
-@Module({
-  import { TypeOrmModule } from '@nestjs/typeorm';
-@Module({
-  imports: [
-    TypeOrmModule.forRoot({
-      type: 'sqllite',
-      database: 'db.sqllite',
-      entities: [],
-      synchronize: true,
-    }),
-  ],
-  controllers: [AppController]
-```  
+     import { TypeOrmModule } from '@nestjs/typeorm';
+  @Module({
+    import { TypeOrmModule } from '@nestjs/typeorm';
+  @Module({
+    imports: [
+      TypeOrmModule.forRoot({
+        type: 'sqllite',
+        database: 'db.sqllite',
+        entities: [],
+        synchronize: true,
+      }),
+    ],
+    controllers: [AppController]
+ ```  
 
 
 
